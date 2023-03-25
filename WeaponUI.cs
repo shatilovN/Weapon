@@ -6,7 +6,7 @@ public class WeaponUI : MonoBehaviour
 {
     [SerializeField] private Text _ammoInMagazineText;
     [SerializeField] private Text _currentAmmoText;
-     
+     //test
     public void ShowRoundsInfo(int ammoInMagazine, int currentAmmo)
     {
         _ammoInMagazineText.text = Convert.ToString(ammoInMagazine);
