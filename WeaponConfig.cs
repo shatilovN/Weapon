@@ -15,6 +15,7 @@ public class WeaponConfig : ScriptableObject
     [SerializeField] private float _repulsiveForse;
 
 //thirdBranch
+//thirdBranch
 
     public string Name => _name;
 
