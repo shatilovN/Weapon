@@ -12,7 +12,8 @@ public class Weapon : MonoBehaviour
 
     private Animator _weaponAnimator;
     private AudioSource _weaponAudioSourse;
-    private float m_nextFire = 0f;
+
+    private float _nextFire = 0f;
     private bool _isReloading = false;
     private bool _noRounds = false;
 
