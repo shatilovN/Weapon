@@ -4,6 +4,7 @@ using UnityEngine;
 [RequireComponent(typeof(AudioSource))]
 public class Weapon : MonoBehaviour
 {
+    
     [SerializeField] private WeaponConfig _weaponConfig;
     [SerializeField] private Transform _mainCameraTransform;
     [SerializeField] private Transform _bulletSpawn;
