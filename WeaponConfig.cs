@@ -14,6 +14,8 @@ public class WeaponConfig : ScriptableObject
     [SerializeField] private AudioClip _shotClip;
     [SerializeField] private float _repulsiveForse;
 
+//thirdBranch
+
     public string Name => _name;
 
     public int CurrentAmmo => _currentAmmo;
